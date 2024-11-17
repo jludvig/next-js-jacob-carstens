@@ -14,7 +14,7 @@ export default async function JobsTable({
           <div className="lg:hidden">
             {jobs?.map((job) => (
               <div key={job.id} className="mb-2 w-full rounded-md bg-white p-4">
-                <div className="flex items-center justify-between border-b pb-4">
+                <div className="flex items-center justify-between pb-4">
                   <div>
                     <div className="flex justify-between">
                       <p>
@@ -29,7 +29,7 @@ export default async function JobsTable({
                         isFavourite={job.isFavourite}
                       />
                     </div>
-                    <p className="text-sm text-gray-500">{job.description}</p>
+                    <p className="text-sm text-gray-700">{job.description}</p>
                   </div>
                 </div>
               </div>
