@@ -21,3 +21,8 @@ project like this where ease of setup is important.
 
 There is no authentication, the login and logout buttons are just redirects. Given more time I would definitely
 add authentication. I can see the db is already prepared for hashed and salted passwords, but time did not allow it.
+
+Another thing that leaves room for improvement is the presentation of the jobs themselves. 
+A shorter description (perhaps AI generated summary) in the table and an on click details view might be a good fit.
+Alternatively a smalle page size and a document like view or perhaps cards might be more 
+interesting than a table - we could add company logos as well.
