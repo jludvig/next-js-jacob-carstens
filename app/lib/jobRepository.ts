@@ -17,7 +17,6 @@ export class JobRepository {
       return getAllJobs(page);
     } else {
       const pageCount = await getJobRecommendationPageCount(jobTitle);
-      console.log("pageCount", pageCount, page);
       const data = await getJobRecommendations(jobTitle, page);
       return {
         pagination: {
